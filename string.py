@@ -11,3 +11,22 @@ print("Enter a string")
 cap = input()   # cap is a string
 cap = cap.capitalize()
 print("You entered:", cap)
+
+# Title case
+print("Enter a string for using title case")
+title = input()
+title = title.title()
+print("You entered:", title)
+
+# Do all at the same time
+print("Enter a string for using all at the same time")
+all = input()
+all = all.strip().title()
+print("Removing space and title case:", all)
+
+
+# Splitting a string
+print("Enter your full name")
+vorname, nachname = input().split()
+print("Vorname:", vorname)
+print("Nachname:", nachname)
