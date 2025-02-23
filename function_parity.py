@@ -10,4 +10,6 @@ def is_even(n):
         return True
     else:
         return False
+    #you could do the same by writing: return True if n % 2 == 0 else False
+    # or even shorter: return n % 2 == 0 --> as this is already a boolean expression
 main()
