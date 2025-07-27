@@ -15,8 +15,8 @@ def create_report(spacecraft):
     ==== REPORT ====
 
     Name: {spacecraft['name']}
-    Distance: {spacecraft['distance']} AU
-
+    Distance: {spacecraft.get("distance", "Unknown")} AU 
+    
     ================
     """
 
